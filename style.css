@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background-color: #04364A;
+
+}
+.nav{
+    width:100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}
+.nav_logo_box{
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    padding-right: 100px;
+}
+
+.nav_list a:hover{
+    color: #008DDA;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #64CCC5;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn:hover{
+    box-shadow: 0 0 5px #64CCC5, 0 0 25px #64CCC5;
+
+}
+
+
+.nav_item{
+    margin: 0 19px;
+    display: flex;
+}
+.nav_link{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.headercontent{
+    width: 100%;
+    height: calc(100vh - 9rem);
+    display: flex;
+    align-items: center;
+    background-image: url(/dm-trends-2020.png);
+    background-size: 100% 100%;
+}
+
+.container{
+    padding-left: 130px;
+    padding-bottom: 150px;
+}
+
+.header_container{
+    width: 60%;
+}
+
+.header_main{
+    font-size: 3.6rem;
+    color: #04364A;
+    margin-bottom: 2.2rem;
+}
+
+.header_p{
+    width: 60%;
+    font-size: 13px;
+    color: #176B87;
+    margin-bottom: 2.2rem;
+}
+
+.header_btn{
+    padding: 1.2rem 2.5rem;
+    background-color: #129fd7;
+    color: #04364A;
+    border-radius: 10rem;
+    font-weight: 600;
+}
+.header_btn:hover{
+    color: #ffffff;
+    box-shadow: 0 0 5px #64CCC5, 0 0 25px #64CCC5,
+    0 0 50px #64CCC5;
+}
+
+.about{
+    margin-top: 45rem;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-color: #64a1cc;
+}
+
+.about_img{
+    width: 50%;
+    height: 50%;
+}
+
+.about_img > img{
+    width: 79%;
+    height: 61%;
+}
+
+.about_title_secondary{
+    color: #f3ebeb;
+    font-size: 4.3rem;
+    margin-top: 1.2rem;
+    padding-right: 50px;
+}
+
+.about_title_primary{
+    color: #ffffff;
+    font-size: 2.6rem;
+    padding-top: 12px;
+}
+.about_p{
+    margin-top: 0.8rem;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    padding-bottom: 12px;
+}
+
+.about_content{
+    width: 60%;
+    padding: 4rem;
+}
+
+.about_btn{
+    padding-top: 12px ;
+    padding-bottom: 12px;
+    padding-left: 5px;
+    background-color: #64a1cc;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 12px;
+}
+
+.about_btn:hover{
+    color: #04364A;
+    box-shadow:0 0 5px #04364A;
+}
+
+.section_title,.section_text{
+    text-align: center;
+}
+
+.section_text{
+    font-size: 12px;
+}
+.grind_list{
+    display: grid;
+    gap: 30px;
+}
+
+
+.section_title{
+    padding-top: 150px;
+    font-size: 65px;
+    padding-bottom: 12px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+.section_text{
+    padding-top: 8px;
+    padding-bottom: 30px;
+    font-size: 12px;
+}
+.grind_list{
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+padding : 20px;
+padding-right: 150px;
+}
+.services_card{
+    width: 109%;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 20px 15px;
+    border-radius:10px;
+    text-align: center;
+    box-shadow: 0 0 5px rgb(143, 138, 138);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.services_card:hover{
+    transform: scale(1.15);
+}
+.card_icon:hover{
+    background-color: #008DDA;
+}
+
+.services_card .card_icon{
+    color: #ffffff;
+    font-size: 25px;
+    max-width: max-content;
+    margin-inline: auto;
+    padding: 20px ;
+    border-radius: 40%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.services_card .cart_title{
+    margin-block: 20px 8px;
+}
+.services_card .card_text{
+    font-size: 11px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+.h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gallery_container{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem,1fr));
+}
+
+.gallery_item{
+    width: 100%;
+    position: relative;
+}
+
+.gallery_text{
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    color: #ffffff;
+}
+.gallery_item > img{
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+.container_project{
+    width: 89%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.section_project {
+    padding: 20px 0;
+}
+
+.h2_section_title {
+    padding-top: 120px;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section_text {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.list_project {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project_card {
+    width: 100%;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.h3_project a{
+    text-decoration: none;
+}
+
+.card_banner {
+    width: 00%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card_content {
+    text-align: center;
+    position: relative;
+}
+
+.card_subtitle {
+    font-size: 1rem;
+    color: #fff5f5;
+    margin-bottom: 10px;
+}
+
+.card_title {
+    font-size: rem;
+    margin-bottom: 20px;
+}
+.section_project ul  :hover{
+    transform: scale(1);
+}
+.btn_primary{
+    display: inline-block;
+    padding:15px;
+    background-color: #3c4cb4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn_primary:hover {
+    background-color: #00e4f5;
+}
+
+.section_about {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+
+.section_about {
+    padding: 50px 0;
+    background-color: #f9f9f9; 
+  }
+  
+  .container_about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about_image {
+    flex: 1;
+  }
+  
+  .about_content {
+    flex: 1;
+    padding-left: 40px;
+  }
+  
+  .h2_about_title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .h3_about {
+    font-size: 24px;
+    color: #333;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .section_about_text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+
+
+  .about_list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .about_item {
+    margin-bottom: 10px;
+  }
+  
+  .about_item i {
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+
+
+.section_cta {
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.container_cta {
+    text-align: center;
+}
+
+.cta_subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.cta_title {
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.btn_cta {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.btn_cta:hover {
+    background-color: #00fff7;
+    box-shadow: 0 0 5px #64CCC5, 0 0 25px #64CCC5;
+}
+
+
+.section_blog {
+    padding: 50px 0;
+}
+
+.container_blog {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.h2_section_title_blog {
+    padding-top: 120px;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.section_text_blog {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #666;
+    text-align: center;
+}
+
+.grid_list_blog {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.blog_card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card_banner_blog {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.image_blog {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.h3_blog {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #333;
+    text-align: center;
+}
+
+.card-title_blog {
+    text-decoration: none;
+    color: #333;
+}
+
+.card-title_blog:hover {
+    text-decoration: underline;
+}
+
+
+
+.section_contact {
+    padding: 50px 0;
+    background-color: #ece7e76f;
+}
+
+.container_contact {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.h2_section_contact {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.section_text_contact {
+    font-size: 10px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+
+
+.input_contact {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact_form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #9da2a3;
+}
+
+textarea.input_contact {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    background-color: #ece7e76f;
+}
+
+.input_wrapped{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+}
+.checkboc_wrapped {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input_contact{
+    background-color: #ece7e76f;
+}
+.checkbox_contact {
+    margin-right: 10px;
+}
+
+.label_contact {
+    font-size: 14px;
+    color: #666;
+}
+
+.lable_link {
+    color: #008DDA;
+    text-decoration: none;
+}
+
+.btn_contact {
+    padding: 10px 20px;
+    background-color: #04364A;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn_contact:hover {
+    background-color: #52D3D8;
+}
+
+.footer{
+    background-color: #04364A;
+}
+
+.container_footer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footer_icon{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 30%;
+}
+
+.footer_icon a{
+    font-size: 2rem;
+    color:#04364A;
+    &:hover{
+        color: #52D3D8;
+    }
+    opacity: 0.9;
+}
+
+.copyright{
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: white;
+}
